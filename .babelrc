@@ -1,0 +1,10 @@
+{
+  "presets": [["env", {
+    "targets": {
+      "browsers": ["> 5%"]
+    },
+    "useBuiltIns": "usage",
+    "debug": true
+  }]],
+  "plugins": ["@babel/transform-runtime"]
+}
